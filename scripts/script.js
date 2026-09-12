@@ -31,18 +31,22 @@
         salida.textContent = "Tú eres bienvenido";
           imagen.src = "imagenes/xi jinping.jpg"; // Ruta de la imagen
           imagen.style.display = "block"; // Mostrar la imagen
+
         } else if (nacionalidad === "estadounidense") {
         salida.textContent = "Tú no puedes pasar a la frontera";
           imagen.src = "imagenes/trump.jpg"; // Ruta de la imagen
           imagen.style.display = "block"; // Mostrar la imagen
+
         } else if (nacionalidad === "japonesa") {
         salida.textContent = "Tú eres bienvenido";
           imagen.src = "imagenes/Cafe.jpg"; // Imagen por defecto
           imagen.style.display = "block"; // Mostrar la imagen
+
         } else if (nacionalidad === "cachorro") {
         salida.textContent = "Tú eres bienvenido";
-          imagen.src = "imagenes/cachorro.jpg"; // Imagen por defecto
+          imagen.src = "imagenes/chachorro.jpg"; // Imagen por defecto
           imagen.style.display = "block"; // Mostrar la imagen
+
         }else {
         salida.textContent = "Tu no puede entrar";
           imagen.src = "imagenes/rudol.jpeg"; // Imagen por defecto
@@ -62,5 +66,21 @@
 
   }
 
-  header();
+  function footer() {
+    document.getElementById("footer").innerHTML = `
+
+      <section>
+        <img src='imagenes/novias.gif' alt='Novias' width="200" height="200">
+      </section>
+
+        <div class="fotoOsaka">
+        hola
+        <img src="imagenes/Osaka.jpg" alt="Osaka">
+    </div>
+      `;
+
+}
+
+
+  footer();
 

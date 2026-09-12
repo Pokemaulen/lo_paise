@@ -1,0 +1,9 @@
+
+.fotoOsaka img {
+    display: none;
+}
+
+.fotoOsaka:hover img {
+    display: block;
+    cursor: pointer;
+}
